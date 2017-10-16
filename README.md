@@ -54,7 +54,7 @@ make install
 
 ## start  only syslog_json_piper.sh client on multiple hosts
 <pre>
-wget -q "https://git.io/vdyEy" && chmod +x syslog_json_piper.sh
+wget -O syslog_json_piper.sh -q "https://git.io/vdyEy" && chmod +x syslog_json_piper.sh
 ./syslog_json_piper.sh ip:8080 /var/log/kern.log
 </pre>
 
