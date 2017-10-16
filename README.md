@@ -1,4 +1,4 @@
-# logs collector server / client archictectur
+# logs collector server / client architecture
 + mongodb based backend  
 + nodejs based frontend 
 + json base API 
