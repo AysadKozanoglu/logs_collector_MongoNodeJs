@@ -50,6 +50,10 @@ chmod +x configure
 make check
 make install
 
+which jo 
+
+ln -s /source/jo/jo /usr/bin/
+
 </pre>
 
 ## start  only syslog_json_piper.sh client on multiple hosts
