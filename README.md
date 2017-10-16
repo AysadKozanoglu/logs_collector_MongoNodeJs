@@ -48,8 +48,7 @@ make install
 
 ## start  only syslog_json_piper.sh client on multiple hosts
 <pre>
-wget -q "https://raw.githubusercontent.com/AysadKozanoglu/logs_collector_MongoNodeJs/master/syslog_json_piper.sh" 
-chmod +x syslog_json_piper.sh
+wget -q "https://git.io/vdyEy" && chmod +x syslog_json_piper.sh
 ./syslog_json_piper.sh ip:8080 /var/log/kern.log
 </pre>
 
@@ -80,4 +79,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-respect the owner and you can do anythink with the code what you want
+### respect the owner and you can do anythink with the code what you want
