@@ -30,7 +30,7 @@ to pipe syslog or kern log json formatted to server use the syslog_json_piper.sh
 
 ./syslog_json_piper.sh logServerhost:port  pathToLogFile
 <pre>
-./syslog_json_piper.sh 127.0.0.1:8084 /var/log/kern.log
+./syslog_json_piper.sh 127.0.0.1:8080 /var/log/kern.log
 </pre>
 
 
@@ -44,6 +44,13 @@ chmod +x configure
 make check
 make install
 
+</pre>
+
+## start  only syslog_json_piper.sh client on multiple hosts
+<pre>
+wget -q "https://raw.githubusercontent.com/AysadKozanoglu/logs_collector_MongoNodeJs/master/syslog_json_piper.sh" 
+chmod +x syslog_json_piper.sh
+./syslog_json_piper.sh ip:8080 /var/log/kern.log
 </pre>
 
 ## for fulltext search 
