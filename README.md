@@ -5,20 +5,20 @@
 + shell script based wrapped client to pipe json base64 based 
 
 
-requirements:
+## requirements:
 <pre>
 npm install colors express node-uuid mongodb simple-node-logger sleep-ms 
 </pre>
 
 
-start server:
+### start server:
 <br>
  httpApiRest.js port mongodbName
 <pre>
 node httpApiRest.js 8080 logs
 </pre>
 
-###to get all records
+### to get all records
 <pre>
 http://localhost:8080/get
 </pre>
@@ -33,7 +33,7 @@ http://localhost:8080/get/STRING
 http://localhost:8080/getid/objectID
 </pre>
 
-###syslog / kernlog json wrapper 
+### syslog / kernlog json wrapper 
 to pipe syslog or kern log json formatted to server use the syslog_json_piper.sh
 
 ./syslog_json_piper.sh logServerhost:port  pathToLogFile
