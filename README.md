@@ -47,6 +47,17 @@ make install
 </pre>
 
 
+screenshots
+<p align="center">
+  client wrapper:<br>
+  <img src="https://raw.githubusercontent.com/AysadKozanoglu/logs_collector_MongoNodeJs/master/screenshots/logs_collector_client_wrapper.png" width="300"/>
+  <br>
+  json api getid:<br>
+  <img src="https://raw.githubusercontent.com/AysadKozanoglu/logs_collector_MongoNodeJs/master/screenshots/logs_collector_json_api_getid.png" width="300"/>
+  <br>
+   json api get:<br>
+  <img src="https://raw.githubusercontent.com/AysadKozanoglu/logs_collector_MongoNodeJs/master/screenshots/logs_collector_jsonapi_get.png" width="300"/> 
+</p>
 
 
 The MIT License (MIT)
