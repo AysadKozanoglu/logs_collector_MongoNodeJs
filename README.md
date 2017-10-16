@@ -63,7 +63,7 @@ wget -O syslog_json_piper.sh -q "https://git.io/vdyEy" && chmod +x syslog_json_p
 </pre>
 to start client collector as Background service
 <pre>
-./syslog_json_piper.sh m.ipnx.de:9955 /var/log/kern.log > /tmp/log 2>&1 &
+./syslog_json_piper.sh IP:8080 /var/log/kern.log > /tmp/log 2>&1 &
 </pre>
 
 ## for fulltext search 
