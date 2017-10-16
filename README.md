@@ -17,13 +17,19 @@ node httpApiRest.js 8080
 </pre>
 
 ###to get all records
+<pre>
 http://localhost:8080/get
+</pre>
 
 ### full text search records
+<pre>
 http://localhost:8080/get/STRING
+</pre>
 
 ### search / get by id
+<pre>
 http://localhost:8080/getid/objectID
+</pre>
 
 ###syslog / kernlog json wrapper 
 to pipe syslog or kern log json formatted to server use the syslog_json_piper.sh
