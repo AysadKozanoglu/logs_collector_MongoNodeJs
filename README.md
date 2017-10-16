@@ -46,6 +46,9 @@ make install
 
 </pre>
 
+## for fulltext search 
+http://aysad.pe.hu/doku/doku.php?id=mongodb_nodejs_fulltext_suche
+
 
 screenshots
 <p align="center">
