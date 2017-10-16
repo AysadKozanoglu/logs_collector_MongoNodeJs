@@ -1,4 +1,9 @@
-# nodejs_webserver_mongoRestApi by Aysad Kozanoglu
+# logs collector server / client archictectur
++ mongodb based backend  
++ nodejs based frontend 
++ json base API 
++ shell script based wrapped client to pipe json base64 based 
+
 
 requirements:
 <pre>
