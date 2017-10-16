@@ -12,8 +12,9 @@ npm install colors express node-uuid mongodb simple-node-logger sleep-ms
 
 
 start server:
+ httpApiRest.js port mongodbName
 <pre>
-node httpApiRest.js 8080
+node httpApiRest.js 8080 logs
 </pre>
 
 ###to get all records
