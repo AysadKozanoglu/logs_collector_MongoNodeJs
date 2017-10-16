@@ -42,7 +42,7 @@ to pipe syslog or kern log json formatted to server use the syslog_json_piper.sh
 
 ### Requirements for syslog_json_piper.sh client wrapper
 <pre>
-apt-get install autoreconf --yes
+apt-get install git autoreconf --yes
 git clone https://github.com/jpmens/jo
 cd jo && autoreconf -i
 chmod +x configure
