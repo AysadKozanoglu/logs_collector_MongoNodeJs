@@ -2,7 +2,7 @@
 // Author: Aysad Kozanoglu
 // email: aysadx@gmail.com
 // web: http://aysad.pe.hu
-// use the syslog_json_piper.sh as connector to log management
+// use the syslog_json_piper.sh as collector to log management
 
 //process.env.NODE_ENV = 'production';
 
