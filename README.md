@@ -2,7 +2,7 @@
 + mongodb based backend  
 + nodejs based frontend 
 + json base API 
-+ shell script based wrapped client to pipe json base64 based 
++ shell script based wrapper client to pipe json base64 encoded 
 
 
 ## requirements:
